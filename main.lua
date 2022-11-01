@@ -9,12 +9,7 @@ local DumpTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/str
 local DistanceAlgo = Sort.new()
     :Add("Distance", 2, "Higher")
 
-local Whitelist = {
-    "Brett290";
-    "Chad5555";
-    "Perthyz";
-    "Hwalalki_Mata";
-}
+local Whitelist = {}
 
 local LocalPlayer = Players.LocalPlayer;
 
